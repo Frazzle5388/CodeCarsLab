@@ -35,5 +35,8 @@ public class CarTest {
         assertEquals("Navy Black", car.getColour());
     }
 
-   
+    @Test
+    public void getPrice() {
+        assertEquals(15000.00, car.getPrice(), 0.00);
+    }
 }

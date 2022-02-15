@@ -24,4 +24,9 @@ public class CarTest {
     public void getModel() {
         assertEquals("Good Car", car.getModel());
     }
+
+    @Test
+    public void getEngine() {
+        assertEquals("Petrol", car.getEngine());
+    }
 }

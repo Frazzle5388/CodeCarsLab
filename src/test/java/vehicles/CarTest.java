@@ -29,4 +29,11 @@ public class CarTest {
     public void getEngine() {
         assertEquals("Petrol", car.getEngine());
     }
+
+    @Test
+    public void getColour() {
+        assertEquals("Navy Black", car.getColour());
+    }
+
+   
 }

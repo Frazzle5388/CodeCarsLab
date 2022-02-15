@@ -1,4 +1,4 @@
-package Enterprise;
+package enterprise;
 
 public class Customer {
 }

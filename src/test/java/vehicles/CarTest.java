@@ -19,4 +19,9 @@ public class CarTest {
     public void getMake() {
         assertEquals("Toyota", car.getMake());
     }
+
+    @Test
+    public void getModel() {
+        assertEquals("Good Car", car.getModel());
+    }
 }

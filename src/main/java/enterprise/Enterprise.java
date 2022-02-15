@@ -15,4 +15,16 @@ public abstract class Enterprise implements ITrade {
         this.vehicles = vehicles;
         this.cash = cash;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public ArrayList<Vehicle> getVehicles() {
+        return vehicles;
+    }
+
+    public double getCash() {
+        return cash;
+    }
 }
